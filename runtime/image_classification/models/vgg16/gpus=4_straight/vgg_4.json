@@ -1,0 +1,6 @@
+{
+    "partition": [10,6,8,14],
+    "recompute_ratio": [0,0,0,0],
+    "batch_size_all": [16],
+    "batch_size": [16,16,16,16]
+}
