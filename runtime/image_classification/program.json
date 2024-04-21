@@ -1,0 +1,10 @@
+{
+    "command": "/usr/local/cuda/bin/nsys",
+    "args": [
+        "profile",
+        "--gpu-metrics-device=0",
+        "--gpu-metrics-frequency=10"
+    ],
+    "overwrite": true,
+    "output": "out"
+}
