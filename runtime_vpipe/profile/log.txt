@@ -1,0 +1,288 @@
+GPU 0: General Metrics for NVIDIA AD10x (any frequency)
+Generating '/tmp/nsys-report-6e2f.qdstrm'
+[1/1] [0%                          ] out.nsys-rep[1/1] [0%                          ] out.nsys-rep[1/1] [===========50%              ] out.nsys-rep[1/1] [===========51%              ] out.nsys-rep[1/1] [===========53%              ] out.nsys-rep[1/1] [========================100%] out.nsys-rep[1/1] [========================100%] out.nsys-rep
+Generated:
+    /home/yuuka/profile/out.nsys-rep
+[22:11:54] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '8']                                                  profile_task.py:53
+[22:12:49] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '16']                                                 profile_task.py:53
+[22:13:27] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '32']                                                 profile_task.py:53
+[22:13:52] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '64']                                                 profile_task.py:53
+[22:14:10] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '128']                                                profile_task.py:53
+[22:14:25] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '256']                                                profile_task.py:53
+[22:14:40] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet_test.py', '-b', '8']                                                     profile_task.py:53
+[22:15:07] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet_test.py', '-b', '16']                                                    profile_task.py:53
+[22:15:29] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet_test.py', '-b', '32']                                                    profile_task.py:53
+[22:15:45] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet_test.py', '-b', '64']                                                    profile_task.py:53
+[22:15:56] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet_test.py', '-b', '128']                                                   profile_task.py:53
+[22:16:07] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet_test.py', '-b', '256']                                                   profile_task.py:53
+[22:16:17] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg16_test.py', '-b', '8']                                                      profile_task.py:53
+[22:16:44] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg16_test.py', '-b', '16']                                                     profile_task.py:53
+[22:17:04] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg16_test.py', '-b', '32']                                                     profile_task.py:53
+[22:17:18] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg16_test.py', '-b', '64']                                                     profile_task.py:53
+[22:17:32] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg16_test.py', '-b', '128']                                                    profile_task.py:53
+[22:17:42] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg16_test.py', '-b', '256']                                                    profile_task.py:53
+[22:17:53] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/mobilenet_test.py', '-b', '8']                                                  profile_task.py:53
+[22:18:39] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/mobilenet_test.py', '-b', '16']                                                 profile_task.py:53
+[22:19:15] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/mobilenet_test.py', '-b', '32']                                                 profile_task.py:53
+[22:19:40] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/mobilenet_test.py', '-b', '64']                                                 profile_task.py:53
+[22:20:02] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/mobilenet_test.py', '-b', '128']                                                profile_task.py:53
+[22:20:24] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/mobilenet_test.py', '-b', '256']                                                profile_task.py:53
+[22:20:50] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg19_test.py', '-b', '8']                                                      profile_task.py:53
+[22:21:16] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg19_test.py', '-b', '16']                                                     profile_task.py:53
+[22:21:35] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg19_test.py', '-b', '32']                                                     profile_task.py:53
+[22:21:50] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg19_test.py', '-b', '64']                                                     profile_task.py:53
+[22:22:03] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg19_test.py', '-b', '128']                                                    profile_task.py:53
+[22:22:14] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/vgg19_test.py', '-b', '256']                                                    profile_task.py:53
+[22:22:24] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'straggle/resnet152_straggle.py', '-b', '2']                                          profile_task.py:37
+Files already downloaded and verified
+GPU 0: General Metrics for NVIDIA AD10x (any frequency)
+Generating '/tmp/nsys-report-2096.qdstrm'
+[1/1] [0%                          ] out.nsys-rep[1/1] [0%                          ] out.nsys-rep[1/1] [===========50%              ] out.nsys-rep[1/1] [===========51%              ] out.nsys-rep[1/1] [========================100%] out.nsys-rep[1/1] [========================100%] out.nsys-rep
+Generated:
+    /home/yuuka/profile/out.nsys-rep
+{
+    'profile': {
+        'PCIe Write Requests to BAR1 [Requests]': '6654',
+        'PCIe Read Requests to BAR1 [Requests]': '0',
+        'PCIe TX Throughput [Throughput %]': '1',
+        'Vertex/Tess/Geometry Warps in Flight [Avg Warps per Cycle]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Avg]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Throughput %]': '0',
+        'Tensor Active [Throughput %]': '1',
+        'SM Issue [Throughput %]': '2',
+        'SM Active [Throughput %]': '13',
+        'SYS Clock Frequency [MHz]': '2052737050',
+        'GPC Clock Frequency [MHz]': '2604041981',
+        'GR Active [Throughput %]': '30',
+        'Sync Compute in Flight [Throughput %]': '0',
+        'Async Compute in Flight [Throughput %]': '24',
+        'Pixel Warps in Flight [Throughput %]': '0',
+        'Pixel Warps in Flight [Avg]': '0',
+        'Pixel Warps in Flight [Avg Warps per Cycle]': '0',
+        'Compute Warps in Flight [Throughput %]': '5',
+        'Compute Warps in Flight [Avg]': '1362028350',
+        'Compute Warps in Flight [Avg Warps per Cycle]': '5',
+        'Unallocated Warps in Active SMs [Throughput %]': '8',
+        'Unallocated Warps in Active SMs [Avg]': '1983098206',
+        'Unallocated Warps in Active SMs [Avg Warps per Cycle]': '8',
+        'DRAM Read Bandwidth [Throughput %]': '7',
+        'DRAM Write Bandwidth [Throughput %]': '5',
+        'PCIe RX Throughput [Throughput %]': '2'
+    }
+}
+[22:22:35] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '8']                                                  profile_task.py:53
+[22:23:35] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '16']                                                 profile_task.py:53
+[22:24:20] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '32']                                                 profile_task.py:53
+[22:24:49] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '64']                                                 profile_task.py:53
+[22:25:10] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '128']                                                profile_task.py:53
+[22:25:34] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '256']                                                profile_task.py:53
+[22:26:00] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'straggle/resnet152_straggle.py', '-b', '4']                                          profile_task.py:37
+Files already downloaded and verified
+GPU 0: General Metrics for NVIDIA AD10x (any frequency)
+Generating '/tmp/nsys-report-fc4c.qdstrm'
+[1/1] [0%                          ] out.nsys-rep[1/1] [0%                          ] out.nsys-rep[1/1] [===========50%              ] out.nsys-rep[1/1] [===========51%              ] out.nsys-rep[1/1] [========================100%] out.nsys-rep[1/1] [========================100%] out.nsys-rep
+Generated:
+    /home/yuuka/profile/out.nsys-rep
+{
+    'profile': {
+        'PCIe Write Requests to BAR1 [Requests]': '12902',
+        'PCIe Read Requests to BAR1 [Requests]': '0',
+        'PCIe TX Throughput [Throughput %]': '1',
+        'Vertex/Tess/Geometry Warps in Flight [Avg Warps per Cycle]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Avg]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Throughput %]': '0',
+        'Tensor Active [Throughput %]': '1',
+        'SM Issue [Throughput %]': '4',
+        'SM Active [Throughput %]': '26',
+        'SYS Clock Frequency [MHz]': '2156283710',
+        'GPC Clock Frequency [MHz]': '2734821576',
+        'GR Active [Throughput %]': '83',
+        'Sync Compute in Flight [Throughput %]': '0',
+        'Async Compute in Flight [Throughput %]': '46',
+        'Pixel Warps in Flight [Throughput %]': '0',
+        'Pixel Warps in Flight [Avg]': '0',
+        'Pixel Warps in Flight [Avg Warps per Cycle]': '0',
+        'Compute Warps in Flight [Throughput %]': '11',
+        'Compute Warps in Flight [Avg]': '2797614102',
+        'Compute Warps in Flight [Avg Warps per Cycle]': '10',
+        'Unallocated Warps in Active SMs [Throughput %]': '16',
+        'Unallocated Warps in Active SMs [Avg]': '4141234431',
+        'Unallocated Warps in Active SMs [Avg Warps per Cycle]': '15',
+        'DRAM Read Bandwidth [Throughput %]': '14',
+        'DRAM Write Bandwidth [Throughput %]': '10',
+        'PCIe RX Throughput [Throughput %]': '2'
+    }
+}
+[22:26:11] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '8']                                                  profile_task.py:53
+[22:27:12] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '16']                                                 profile_task.py:53
+[22:27:56] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '32']                                                 profile_task.py:53
+[22:28:29] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '64']                                                 profile_task.py:53
+[22:28:49] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '128']                                                profile_task.py:53
+[22:29:11] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '256']                                                profile_task.py:53
+[22:29:37] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'straggle/resnet152_straggle.py', '-b', '8']                                          profile_task.py:37
+Files already downloaded and verified
+GPU 0: General Metrics for NVIDIA AD10x (any frequency)
+Generating '/tmp/nsys-report-1962.qdstrm'
+[1/1] [0%                          ] out.nsys-rep[1/1] [0%                          ] out.nsys-rep[1/1] [===========50%              ] out.nsys-rep[1/1] [===========51%              ] out.nsys-rep[1/1] [========================100%] out.nsys-rep[1/1] [========================100%] out.nsys-rep
+Generated:
+    /home/yuuka/profile/out.nsys-rep
+{
+    'profile': {
+        'PCIe Write Requests to BAR1 [Requests]': '15164',
+        'PCIe Read Requests to BAR1 [Requests]': '0',
+        'PCIe TX Throughput [Throughput %]': '1',
+        'Vertex/Tess/Geometry Warps in Flight [Avg Warps per Cycle]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Avg]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Throughput %]': '0',
+        'Tensor Active [Throughput %]': '1',
+        'SM Issue [Throughput %]': '5',
+        'SM Active [Throughput %]': '32',
+        'SYS Clock Frequency [MHz]': '2155032450',
+        'GPC Clock Frequency [MHz]': '2733133617',
+        'GR Active [Throughput %]': '82',
+        'Sync Compute in Flight [Throughput %]': '0',
+        'Async Compute in Flight [Throughput %]': '53',
+        'Pixel Warps in Flight [Throughput %]': '0',
+        'Pixel Warps in Flight [Avg]': '0',
+        'Pixel Warps in Flight [Avg Warps per Cycle]': '0',
+        'Compute Warps in Flight [Throughput %]': '12',
+        'Compute Warps in Flight [Avg]': '3100820996',
+        'Compute Warps in Flight [Avg Warps per Cycle]': '11',
+        'Unallocated Warps in Active SMs [Throughput %]': '20',
+        'Unallocated Warps in Active SMs [Avg]': '5302075832',
+        'Unallocated Warps in Active SMs [Avg Warps per Cycle]': '19',
+        'DRAM Read Bandwidth [Throughput %]': '14',
+        'DRAM Write Bandwidth [Throughput %]': '10',
+        'PCIe RX Throughput [Throughput %]': '2'
+    }
+}
+[22:29:48] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '8']                                                  profile_task.py:53
+[22:30:52] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '16']                                                 profile_task.py:53
+[22:31:35] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '32']                                                 profile_task.py:53
+[22:32:06] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '64']                                                 profile_task.py:53
+[22:32:26] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '128']                                                profile_task.py:53
+[22:32:48] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '256']                                                profile_task.py:53
+[22:33:13] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'straggle/resnet152_straggle.py', '-b', '16']                                         profile_task.py:37
+Files already downloaded and verified
+GPU 0: General Metrics for NVIDIA AD10x (any frequency)
+Generating '/tmp/nsys-report-957c.qdstrm'
+[1/1] [0%                          ] out.nsys-rep[1/1] [0%                          ] out.nsys-rep[1/1] [===========50%              ] out.nsys-rep[1/1] [===========51%              ] out.nsys-rep[1/1] [========================100%] out.nsys-rep[1/1] [========================100%] out.nsys-rep
+Generated:
+    /home/yuuka/profile/out.nsys-rep
+{
+    'profile': {
+        'PCIe Write Requests to BAR1 [Requests]': '10986',
+        'PCIe Read Requests to BAR1 [Requests]': '0',
+        'PCIe TX Throughput [Throughput %]': '1',
+        'Vertex/Tess/Geometry Warps in Flight [Avg Warps per Cycle]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Avg]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Throughput %]': '0',
+        'Tensor Active [Throughput %]': '1',
+        'SM Issue [Throughput %]': '5',
+        'SM Active [Throughput %]': '30',
+        'SYS Clock Frequency [MHz]': '2154509080',
+        'GPC Clock Frequency [MHz]': '2732467595',
+        'GR Active [Throughput %]': '82',
+        'Sync Compute in Flight [Throughput %]': '0',
+        'Async Compute in Flight [Throughput %]': '49',
+        'Pixel Warps in Flight [Throughput %]': '0',
+        'Pixel Warps in Flight [Avg]': '0',
+        'Pixel Warps in Flight [Avg Warps per Cycle]': '0',
+        'Compute Warps in Flight [Throughput %]': '11',
+        'Compute Warps in Flight [Avg]': '2971319416',
+        'Compute Warps in Flight [Avg Warps per Cycle]': '11',
+        'Unallocated Warps in Active SMs [Throughput %]': '19',
+        'Unallocated Warps in Active SMs [Avg]': '4863450346',
+        'Unallocated Warps in Active SMs [Avg Warps per Cycle]': '18',
+        'DRAM Read Bandwidth [Throughput %]': '13',
+        'DRAM Write Bandwidth [Throughput %]': '10',
+        'PCIe RX Throughput [Throughput %]': '1'
+    }
+}
+[22:33:25] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '8']                                                  profile_task.py:53
+[22:34:27] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '16']                                                 profile_task.py:53
+[22:35:13] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '32']                                                 profile_task.py:53
+[22:35:51] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '64']                                                 profile_task.py:53
+[22:36:12] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '128']                                                profile_task.py:53
+[22:36:38] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '256']                                                profile_task.py:53
+[22:37:07] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'straggle/resnet152_straggle.py', '-b', '32']                                         profile_task.py:37
+Files already downloaded and verified
+GPU 0: General Metrics for NVIDIA AD10x (any frequency)
+Generating '/tmp/nsys-report-5510.qdstrm'
+[1/1] [0%                          ] out.nsys-rep[1/1] [0%                          ] out.nsys-rep[1/1] [===========50%              ] out.nsys-rep[1/1] [===========51%              ] out.nsys-rep[1/1] [========================100%] out.nsys-rep[1/1] [========================100%] out.nsys-rep
+Generated:
+    /home/yuuka/profile/out.nsys-rep
+{
+    'profile': {
+        'PCIe Write Requests to BAR1 [Requests]': '11936',
+        'PCIe Read Requests to BAR1 [Requests]': '0',
+        'PCIe TX Throughput [Throughput %]': '1',
+        'Vertex/Tess/Geometry Warps in Flight [Avg Warps per Cycle]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Avg]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Throughput %]': '0',
+        'Tensor Active [Throughput %]': '2',
+        'SM Issue [Throughput %]': '7',
+        'SM Active [Throughput %]': '38',
+        'SYS Clock Frequency [MHz]': '2151931700',
+        'GPC Clock Frequency [MHz]': '2726782008',
+        'GR Active [Throughput %]': '86',
+        'Sync Compute in Flight [Throughput %]': '0',
+        'Async Compute in Flight [Throughput %]': '56',
+        'Pixel Warps in Flight [Throughput %]': '0',
+        'Pixel Warps in Flight [Avg]': '0',
+        'Pixel Warps in Flight [Avg Warps per Cycle]': '0',
+        'Compute Warps in Flight [Throughput %]': '13',
+        'Compute Warps in Flight [Avg]': '3461356088',
+        'Compute Warps in Flight [Avg Warps per Cycle]': '13',
+        'Unallocated Warps in Active SMs [Throughput %]': '24',
+        'Unallocated Warps in Active SMs [Avg]': '6410123560',
+        'Unallocated Warps in Active SMs [Avg Warps per Cycle]': '24',
+        'DRAM Read Bandwidth [Throughput %]': '14',
+        'DRAM Write Bandwidth [Throughput %]': '11',
+        'PCIe RX Throughput [Throughput %]': '2'
+    }
+}
+[22:37:18] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '8']                                                  profile_task.py:53
+[22:38:25] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '16']                                                 profile_task.py:53
+[22:39:10] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '32']                                                 profile_task.py:53
+[22:39:46] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '64']                                                 profile_task.py:53
+[22:40:05] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '128']                                                profile_task.py:53
+[22:40:23] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '256']                                                profile_task.py:53
+[22:40:41] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'straggle/resnet152_straggle.py', '-b', '64']                                         profile_task.py:37
+Files already downloaded and verified
+GPU 0: General Metrics for NVIDIA AD10x (any frequency)
+Generating '/tmp/nsys-report-b0f5.qdstrm'
+[1/1] [0%                          ] out.nsys-rep[1/1] [0%                          ] out.nsys-rep[1/1] [===========50%              ] out.nsys-rep[1/1] [===========51%              ] out.nsys-rep[1/1] [========================100%] out.nsys-rep[1/1] [========================100%] out.nsys-rep
+Generated:
+    /home/yuuka/profile/out.nsys-rep
+{
+    'profile': {
+        'PCIe Write Requests to BAR1 [Requests]': '7400',
+        'PCIe Read Requests to BAR1 [Requests]': '0',
+        'PCIe TX Throughput [Throughput %]': '1',
+        'Vertex/Tess/Geometry Warps in Flight [Avg Warps per Cycle]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Avg]': '0',
+        'Vertex/Tess/Geometry Warps in Flight [Throughput %]': '0',
+        'Tensor Active [Throughput %]': '3',
+        'SM Issue [Throughput %]': '14',
+        'SM Active [Throughput %]': '45',
+        'SYS Clock Frequency [MHz]': '2163142810',
+        'GPC Clock Frequency [MHz]': '2731899899',
+        'GR Active [Throughput %]': '57',
+        'Sync Compute in Flight [Throughput %]': '0',
+        'Async Compute in Flight [Throughput %]': '56',
+        'Pixel Warps in Flight [Throughput %]': '0',
+        'Pixel Warps in Flight [Avg]': '0',
+        'Pixel Warps in Flight [Avg Warps per Cycle]': '0',
+        'Compute Warps in Flight [Throughput %]': '18',
+        'Compute Warps in Flight [Avg]': '4792575784',
+        'Compute Warps in Flight [Avg Warps per Cycle]': '18',
+        'Unallocated Warps in Active SMs [Throughput %]': '27',
+        'Unallocated Warps in Active SMs [Avg]': '7093389530',
+        'Unallocated Warps in Active SMs [Avg Warps per Cycle]': '26',
+        'DRAM Read Bandwidth [Throughput %]': '7',
+        'DRAM Write Bandwidth [Throughput %]': '6',
+        'PCIe RX Throughput [Throughput %]': '1'
+    }
+}
+[22:40:52] INFO     launch:['/home/user/miniconda3/envs/tyf_py/bin/python', 'test/resnet152_test.py', '-b', '8']                                                  profile_task.py:53

@@ -1,0 +1,200 @@
+Stage(inputs[0], outputs[0], declares[0], calculations[0], recompute_ratio[0])
+<class 'models.vgg16.gpus=2.Stage'>
+shape
+{'input0': (32, 3, 224, 224), 'target': (32,), 'out11': (32, 128, 56, 56), 'out41': (32, 10)}
+Finished initializing process group; backend: gloo, rank: 1world_size: 2
+recv ranks {'out11': [0]}
+send ranks {}
+models [Stage(
+  (layer12): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (layer13): ReLU()
+  (layer14): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (layer15): ReLU()
+  (layer16): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (layer17): ReLU()
+  (layer18): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (layer19): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (layer20): ReLU()
+  (layer21): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (layer22): ReLU()
+  (layer23): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (layer24): ReLU()
+  (layer25): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (layer26): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (layer27): ReLU()
+  (layer28): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (layer29): ReLU()
+  (layer30): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (layer31): ReLU()
+  (layer32): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (layer35): Linear(in_features=25088, out_features=4096, bias=True)
+  (layer36): ReLU()
+  (layer37): Dropout(p=0.5, inplace=False)
+  (layer38): Linear(in_features=4096, out_features=4096, bias=True)
+  (layer39): ReLU()
+  (layer40): Dropout(p=0.5, inplace=False)
+  (layer41): Linear(in_features=4096, out_features=10, bias=True)
+), CrossEntropyLoss()]
+using cifar10 dataset
+Files already downloaded and verified
+Files already downloaded and verified
+in dynamic
+partition tensor([10, 28])
+Stage(inputs[0], outputs[0], declares[0], calculations[0], recompute_ratio[0])
+<class 'models.vgg16.gpus=2.Stage'>
+warm0
+Epoch: [0][0/1562]	Time: 0.469 (0.469)	Epoch time [hr]: 0.000 (0.204)	Memory: 2.919 (2.959)	Loss: 2.3169 (2.3169)	Prec@1: 0.000 (0.000)	Prec@5: 37.500 (37.500)	Running Time: 10.529
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1., 1.])
+tensor([0.0328, 0.0000])
+Epoch: [0][10/1562]	Time: 0.124 (0.159)	Epoch time [hr]: 0.000 (0.069)	Memory: 4.046 (4.696)	Loss: 2.2956 (2.2949)	Prec@1: 9.375 (13.068)	Prec@5: 59.375 (55.114)	Running Time: 11.813
+Epoch: [0][20/1562]	Time: 0.122 (0.143)	Epoch time [hr]: 0.001 (0.062)	Memory: 4.045 (4.696)	Loss: 2.3006 (2.3005)	Prec@1: 9.375 (11.905)	Prec@5: 50.000 (51.042)	Running Time: 13.067
+Epoch: [0][30/1562]	Time: 0.136 (0.138)	Epoch time [hr]: 0.001 (0.060)	Memory: 4.045 (4.696)	Loss: 2.3235 (2.3013)	Prec@1: 9.375 (10.988)	Prec@5: 34.375 (51.512)	Running Time: 14.339
+Epoch: [0][40/1562]	Time: 0.135 (0.137)	Epoch time [hr]: 0.002 (0.059)	Memory: 4.046 (4.696)	Loss: 2.2754 (2.2994)	Prec@1: 12.500 (11.204)	Prec@5: 65.625 (51.524)	Running Time: 15.666
+Epoch: [0][50/1562]	Time: 0.129 (0.136)	Epoch time [hr]: 0.002 (0.059)	Memory: 4.045 (4.696)	Loss: 2.2887 (2.2998)	Prec@1: 9.375 (11.458)	Prec@5: 56.250 (51.287)	Running Time: 17.003
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1., 1.])
+tensor([0.8319, 1.4434])
+Epoch: [0][60/1562]	Time: 0.136 (0.136)	Epoch time [hr]: 0.002 (0.059)	Memory: 4.045 (4.696)	Loss: 2.2644 (2.2974)	Prec@1: 9.375 (11.475)	Prec@5: 56.250 (51.178)	Running Time: 18.343
+Epoch: [0][70/1562]	Time: 0.130 (0.135)	Epoch time [hr]: 0.003 (0.059)	Memory: 4.046 (4.696)	Loss: 2.2989 (2.2956)	Prec@1: 12.500 (11.268)	Prec@5: 53.125 (51.452)	Running Time: 19.680
+Epoch: [0][80/1562]	Time: 0.134 (0.135)	Epoch time [hr]: 0.003 (0.059)	Memory: 4.045 (4.696)	Loss: 2.3122 (2.2936)	Prec@1: 15.625 (11.458)	Prec@5: 50.000 (51.929)	Running Time: 20.999
+Epoch: [0][90/1562]	Time: 0.130 (0.135)	Epoch time [hr]: 0.003 (0.058)	Memory: 4.045 (4.696)	Loss: 2.2650 (2.2896)	Prec@1: 12.500 (11.470)	Prec@5: 59.375 (52.713)	Running Time: 22.323
+Epoch: [0][100/1562]	Time: 0.137 (0.135)	Epoch time [hr]: 0.004 (0.058)	Memory: 4.046 (4.696)	Loss: 2.2026 (2.2866)	Prec@1: 12.500 (11.757)	Prec@5: 56.250 (52.444)	Running Time: 23.652
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1., 1.])
+finish initialize cmp status
+tensor([0.8050, 1.4855])
+Epoch: [0][110/1562]	Time: 0.134 (0.134)	Epoch time [hr]: 0.004 (0.058)	Memory: 4.045 (4.696)	Loss: 2.2138 (2.2840)	Prec@1: 18.750 (11.909)	Prec@5: 56.250 (52.421)	Running Time: 24.978
+Epoch: [0][120/1562]	Time: 0.123 (0.134)	Epoch time [hr]: 0.005 (0.058)	Memory: 4.045 (4.696)	Loss: 2.2363 (2.2829)	Prec@1: 18.750 (12.061)	Prec@5: 75.000 (52.815)	Running Time: 26.302
+Epoch: [0][130/1562]	Time: 0.130 (0.134)	Epoch time [hr]: 0.005 (0.058)	Memory: 4.046 (4.696)	Loss: 2.2363 (2.2796)	Prec@1: 6.250 (12.190)	Prec@5: 75.000 (53.507)	Running Time: 27.603
+Epoch: [0][140/1562]	Time: 0.137 (0.134)	Epoch time [hr]: 0.005 (0.058)	Memory: 4.045 (4.696)	Loss: 2.1813 (2.2747)	Prec@1: 31.250 (12.389)	Prec@5: 65.625 (54.100)	Running Time: 28.908
+Epoch: [0][150/1562]	Time: 0.139 (0.134)	Epoch time [hr]: 0.006 (0.058)	Memory: 4.045 (4.696)	Loss: 2.3281 (2.2679)	Prec@1: 9.375 (12.831)	Prec@5: 59.375 (54.781)	Running Time: 30.236
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1., 1.])
+tensor([0.8629, 1.5041])
+straggle_cmp tensor([1., 1.])
+in dynamic last stage
+Epoch: [0][160/1562]	Time: 0.133 (0.134)	Epoch time [hr]: 0.006 (0.058)	Memory: 4.046 (4.696)	Loss: 2.3321 (2.2614)	Prec@1: 6.250 (13.276)	Prec@5: 50.000 (55.629)	Running Time: 31.592
+Epoch: [0][170/1562]	Time: 0.126 (0.134)	Epoch time [hr]: 0.006 (0.058)	Memory: 4.045 (4.696)	Loss: 2.2491 (2.2547)	Prec@1: 18.750 (13.596)	Prec@5: 56.250 (56.268)	Running Time: 32.915
+Epoch: [0][180/1562]	Time: 0.130 (0.134)	Epoch time [hr]: 0.007 (0.058)	Memory: 4.045 (4.696)	Loss: 2.3039 (2.2490)	Prec@1: 12.500 (14.071)	Prec@5: 50.000 (57.061)	Running Time: 34.226
+Epoch: [0][190/1562]	Time: 0.128 (0.133)	Epoch time [hr]: 0.007 (0.058)	Memory: 4.046 (4.696)	Loss: 2.1864 (2.2458)	Prec@1: 12.500 (14.185)	Prec@5: 75.000 (57.592)	Running Time: 35.533
+Epoch: [0][200/1562]	Time: 0.124 (0.133)	Epoch time [hr]: 0.007 (0.058)	Memory: 4.045 (4.696)	Loss: 2.1412 (2.2425)	Prec@1: 21.875 (14.381)	Prec@5: 71.875 (58.162)	Running Time: 36.848
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1., 1.])
+tensor([0.8628, 1.5082])
+straggle_cmp tensor([1., 1.])
+in dynamic last stage
+Epoch: [0][210/1562]	Time: 0.130 (0.133)	Epoch time [hr]: 0.008 (0.058)	Memory: 4.045 (4.696)	Loss: 2.0676 (2.2399)	Prec@1: 40.625 (14.573)	Prec@5: 75.000 (58.605)	Running Time: 38.183
+Epoch: [0][220/1562]	Time: 0.156 (0.133)	Epoch time [hr]: 0.008 (0.058)	Memory: 4.046 (4.696)	Loss: 2.3089 (2.2362)	Prec@1: 18.750 (14.819)	Prec@5: 65.625 (58.923)	Running Time: 39.549
+Epoch: [0][230/1562]	Time: 0.125 (0.133)	Epoch time [hr]: 0.009 (0.058)	Memory: 4.045 (4.696)	Loss: 2.2014 (2.2320)	Prec@1: 12.500 (15.233)	Prec@5: 71.875 (59.524)	Running Time: 40.868
+Epoch: [0][240/1562]	Time: 0.126 (0.133)	Epoch time [hr]: 0.009 (0.058)	Memory: 4.045 (4.696)	Loss: 2.1158 (2.2277)	Prec@1: 15.625 (15.418)	Prec@5: 75.000 (59.894)	Running Time: 42.177
+Epoch: [0][250/1562]	Time: 0.127 (0.133)	Epoch time [hr]: 0.009 (0.058)	Memory: 4.046 (4.696)	Loss: 2.0536 (2.2242)	Prec@1: 15.625 (15.700)	Prec@5: 71.875 (60.346)	Running Time: 43.489
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1., 1.])
+tensor([0.8138, 1.5407])
+straggle_cmp tensor([1., 1.])
+in dynamic last stage
+Epoch: [0][260/1562]	Time: 0.130 (0.133)	Epoch time [hr]: 0.010 (0.058)	Memory: 4.045 (4.696)	Loss: 2.0202 (2.2196)	Prec@1: 34.375 (16.068)	Prec@5: 78.125 (60.967)	Running Time: 44.800
+Epoch: [0][270/1562]	Time: 0.199 (0.135)	Epoch time [hr]: 0.010 (0.058)	Memory: 4.045 (4.696)	Loss: 2.1087 (2.2166)	Prec@1: 25.000 (16.398)	Prec@5: 75.000 (61.462)	Running Time: 46.570
+Epoch: [0][280/1562]	Time: 0.271 (0.139)	Epoch time [hr]: 0.011 (0.060)	Memory: 4.045 (4.696)	Loss: 2.0723 (2.2132)	Prec@1: 21.875 (16.681)	Prec@5: 78.125 (61.855)	Running Time: 49.201
+Epoch: [0][290/1562]	Time: 0.339 (0.146)	Epoch time [hr]: 0.012 (0.063)	Memory: 4.046 (4.696)	Loss: 2.0406 (2.2109)	Prec@1: 28.125 (16.881)	Prec@5: 71.875 (62.221)	Running Time: 52.580
+Epoch: [0][300/1562]	Time: 0.343 (0.153)	Epoch time [hr]: 0.013 (0.066)	Memory: 4.046 (4.696)	Loss: 2.2894 (2.2098)	Prec@1: 6.250 (16.954)	Prec@5: 68.750 (62.645)	Running Time: 56.036
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1., 1.])
+tensor([0.9059, 4.7548])
+straggle_cmp tensor([1.0000, 3.2008])
+in dynamic last stage
+restart
+Epoch: [0][310/1562]	Time: 0.350 (0.159)	Epoch time [hr]: 0.014 (0.069)	Memory: 4.046 (4.696)	Loss: 2.0985 (2.2060)	Prec@1: 40.625 (17.233)	Prec@5: 71.875 (63.153)	Running Time: 59.618
+Epoch: [0][320/1562]	Time: 0.351 (0.165)	Epoch time [hr]: 0.015 (0.072)	Memory: 4.046 (4.696)	Loss: 2.1130 (2.2006)	Prec@1: 21.875 (17.504)	Prec@5: 84.375 (63.688)	Running Time: 63.123
+Epoch: [0][330/1562]	Time: 0.330 (0.171)	Epoch time [hr]: 0.016 (0.074)	Memory: 4.046 (4.696)	Loss: 2.1748 (2.1978)	Prec@1: 15.625 (17.608)	Prec@5: 68.750 (63.973)	Running Time: 66.630
+Epoch: [0][340/1562]	Time: 0.350 (0.176)	Epoch time [hr]: 0.017 (0.076)	Memory: 4.046 (4.696)	Loss: 2.0088 (2.1941)	Prec@1: 28.125 (17.733)	Prec@5: 87.500 (64.351)	Running Time: 70.096
+Epoch: [0][350/1562]	Time: 0.362 (0.181)	Epoch time [hr]: 0.018 (0.079)	Memory: 4.046 (4.696)	Loss: 2.0559 (2.1914)	Prec@1: 21.875 (17.833)	Prec@5: 78.125 (64.637)	Running Time: 73.680
+i_for_initial 360
+restart_dtype True False
+profiles tensor([1.0000, 3.2008])
+tensor([0.9059, 6.8721])
+straggle_cmp tensor([1.0000, 4.6261])
+Epoch: [0][360/1562]	Time: 0.351 (0.186)	Epoch time [hr]: 0.019 (0.081)	Memory: 4.045 (4.696)	Loss: 2.3014 (2.1902)	Prec@1: 12.500 (17.945)	Prec@5: 75.000 (64.785)	Running Time: 77.339
+begin
+end
+Test: [0][0/50]	Time: 0.828 (0.828)	Memory: 2.738 (4.696)	Loss: 1.7967 (1.7967)	Prec@1: 40.625 (40.625)	Prec@5: 87.500 (87.500)
+Test: [0][10/50]	Time: 0.159 (0.236)	Memory: 2.738 (4.696)	Loss: 2.0766 (1.9990)	Prec@1: 28.125 (26.989)	Prec@5: 65.625 (79.830)
+Test: [0][20/50]	Time: 0.166 (0.202)	Memory: 2.738 (4.696)	Loss: 2.0155 (2.0355)	Prec@1: 15.625 (25.595)	Prec@5: 75.000 (77.232)
+Test: [0][30/50]	Time: 0.179 (0.193)	Memory: 2.738 (4.696)	Loss: 1.9859 (2.0280)	Prec@1: 40.625 (25.504)	Prec@5: 78.125 (76.714)
+Test: [0][40/50]	Time: 0.173 (0.188)	Memory: 2.738 (4.696)	Loss: 1.8609 (2.0365)	Prec@1: 31.250 (25.076)	Prec@5: 78.125 (76.601)
+ * Prec@1 25.500 Prec@5 77.375
+Epoch 0: 9.244 seconds
+Epoch start time: 1712069672.525, epoch end time: 1712069681.769
+partition tensor([17, 21])
+Stage(inputs[0], outputs[0], declares[0], calculations[0], recompute_ratio[0])
+<class 'models.vgg16.gpus=2.Stage'>
+warm0
+Epoch: [1][0/1562]	Time: 0.467 (0.467)	Epoch time [hr]: 0.000 (0.203)	Memory: 2.140 (4.696)	Loss: 2.3048 (2.3048)	Prec@1: 12.500 (12.500)	Prec@5: 56.250 (56.250)	Running Time: 94.644
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1.0000, 4.6261])
+tensor([0.0259, 0.1573])
+Epoch: [1][10/1562]	Time: 0.205 (0.237)	Epoch time [hr]: 0.001 (0.103)	Memory: 3.202 (4.696)	Loss: 2.3081 (2.3095)	Prec@1: 3.125 (10.511)	Prec@5: 46.875 (50.000)	Running Time: 96.779
+Epoch: [1][20/1562]	Time: 0.212 (0.225)	Epoch time [hr]: 0.001 (0.098)	Memory: 3.203 (4.696)	Loss: 2.3088 (2.3053)	Prec@1: 6.250 (10.119)	Prec@5: 34.375 (51.190)	Running Time: 98.906
+Epoch: [1][30/1562]	Time: 0.212 (0.221)	Epoch time [hr]: 0.002 (0.096)	Memory: 3.203 (4.696)	Loss: 2.2787 (2.3029)	Prec@1: 9.375 (10.081)	Prec@5: 65.625 (52.923)	Running Time: 101.028
+Epoch: [1][40/1562]	Time: 0.206 (0.218)	Epoch time [hr]: 0.002 (0.095)	Memory: 3.203 (4.696)	Loss: 2.2925 (2.3010)	Prec@1: 21.875 (10.442)	Prec@5: 53.125 (53.125)	Running Time: 103.107
+Epoch: [1][50/1562]	Time: 0.205 (0.216)	Epoch time [hr]: 0.003 (0.094)	Memory: 3.202 (4.696)	Loss: 2.2743 (2.3008)	Prec@1: 15.625 (10.233)	Prec@5: 59.375 (52.880)	Running Time: 105.169
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1.0000, 4.6261])
+tensor([2.7760, 1.3901])
+Epoch: [1][60/1562]	Time: 0.212 (0.214)	Epoch time [hr]: 0.004 (0.093)	Memory: 3.203 (4.696)	Loss: 2.2853 (2.2985)	Prec@1: 15.625 (10.400)	Prec@5: 53.125 (52.818)	Running Time: 107.238
+Epoch: [1][70/1562]	Time: 0.206 (0.213)	Epoch time [hr]: 0.004 (0.093)	Memory: 3.203 (4.696)	Loss: 2.2511 (2.2979)	Prec@1: 15.625 (10.167)	Prec@5: 62.500 (52.817)	Running Time: 109.333
+Epoch: [1][80/1562]	Time: 0.208 (0.213)	Epoch time [hr]: 0.005 (0.092)	Memory: 3.203 (4.696)	Loss: 2.2390 (2.2946)	Prec@1: 21.875 (10.957)	Prec@5: 65.625 (52.894)	Running Time: 111.407
+Epoch: [1][90/1562]	Time: 0.206 (0.212)	Epoch time [hr]: 0.005 (0.092)	Memory: 3.202 (4.696)	Loss: 2.2961 (2.2924)	Prec@1: 6.250 (11.161)	Prec@5: 56.250 (53.056)	Running Time: 113.474
+Epoch: [1][100/1562]	Time: 0.205 (0.211)	Epoch time [hr]: 0.006 (0.092)	Memory: 3.203 (4.696)	Loss: 2.2203 (2.2897)	Prec@1: 9.375 (11.077)	Prec@5: 59.375 (53.125)	Running Time: 115.535
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1.0000, 4.6261])
+finish initialize cmp status
+tensor([2.8382, 1.1897])
+Epoch: [1][110/1562]	Time: 0.207 (0.211)	Epoch time [hr]: 0.007 (0.092)	Memory: 3.203 (4.696)	Loss: 2.3102 (2.2871)	Prec@1: 9.375 (11.458)	Prec@5: 59.375 (53.435)	Running Time: 117.609
+Epoch: [1][120/1562]	Time: 0.205 (0.211)	Epoch time [hr]: 0.007 (0.091)	Memory: 3.203 (4.696)	Loss: 2.2517 (2.2839)	Prec@1: 18.750 (11.880)	Prec@5: 62.500 (53.719)	Running Time: 119.667
+Epoch: [1][130/1562]	Time: 0.212 (0.211)	Epoch time [hr]: 0.008 (0.091)	Memory: 3.202 (4.696)	Loss: 2.2488 (2.2805)	Prec@1: 6.250 (12.118)	Prec@5: 53.125 (54.198)	Running Time: 121.754
+Epoch: [1][140/1562]	Time: 0.212 (0.211)	Epoch time [hr]: 0.008 (0.091)	Memory: 3.203 (4.696)	Loss: 2.2890 (2.2769)	Prec@1: 12.500 (12.389)	Prec@5: 65.625 (54.566)	Running Time: 123.875
+Epoch: [1][150/1562]	Time: 0.213 (0.211)	Epoch time [hr]: 0.009 (0.091)	Memory: 3.203 (4.696)	Loss: 2.2179 (2.2719)	Prec@1: 12.500 (12.852)	Prec@5: 65.625 (55.381)	Running Time: 125.997
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1.0000, 4.6261])
+tensor([2.8102, 1.2363])
+straggle_cmp tensor([1., 1.])
+in dynamic last stage
+Epoch: [1][160/1562]	Time: 0.212 (0.211)	Epoch time [hr]: 0.009 (0.091)	Memory: 3.202 (4.696)	Loss: 2.2320 (2.2657)	Prec@1: 21.875 (13.238)	Prec@5: 75.000 (56.425)	Running Time: 128.119
+Epoch: [1][170/1562]	Time: 0.206 (0.211)	Epoch time [hr]: 0.010 (0.091)	Memory: 3.203 (4.696)	Loss: 2.1585 (2.2625)	Prec@1: 21.875 (13.615)	Prec@5: 65.625 (57.018)	Running Time: 130.182
+Epoch: [1][180/1562]	Time: 0.206 (0.210)	Epoch time [hr]: 0.011 (0.091)	Memory: 3.203 (4.696)	Loss: 2.1297 (2.2555)	Prec@1: 25.000 (14.106)	Prec@5: 78.125 (57.856)	Running Time: 132.254
+Epoch: [1][190/1562]	Time: 0.212 (0.210)	Epoch time [hr]: 0.011 (0.091)	Memory: 3.202 (4.696)	Loss: 2.2425 (2.2530)	Prec@1: 18.750 (14.332)	Prec@5: 59.375 (58.491)	Running Time: 134.339
+Epoch: [1][200/1562]	Time: 0.206 (0.210)	Epoch time [hr]: 0.012 (0.091)	Memory: 3.203 (4.696)	Loss: 2.1215 (2.2456)	Prec@1: 15.625 (14.723)	Prec@5: 81.250 (59.282)	Running Time: 136.444
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1., 1.])
+tensor([2.7957, 1.2435])
+straggle_cmp tensor([1., 1.])
+in dynamic last stage
+Epoch: [1][210/1562]	Time: 0.206 (0.210)	Epoch time [hr]: 0.012 (0.091)	Memory: 3.203 (4.696)	Loss: 2.2075 (2.2393)	Prec@1: 25.000 (15.299)	Prec@5: 68.750 (59.953)	Running Time: 138.535
+Epoch: [1][220/1562]	Time: 0.206 (0.210)	Epoch time [hr]: 0.013 (0.091)	Memory: 3.203 (4.696)	Loss: 2.0842 (2.2320)	Prec@1: 31.250 (15.696)	Prec@5: 75.000 (60.662)	Running Time: 140.614
+Epoch: [1][230/1562]	Time: 0.206 (0.210)	Epoch time [hr]: 0.013 (0.091)	Memory: 3.202 (4.696)	Loss: 2.1670 (2.2237)	Prec@1: 15.625 (16.044)	Prec@5: 75.000 (61.350)	Running Time: 142.680
+Epoch: [1][240/1562]	Time: 0.212 (0.210)	Epoch time [hr]: 0.014 (0.091)	Memory: 3.203 (4.696)	Loss: 2.2396 (2.2187)	Prec@1: 12.500 (16.364)	Prec@5: 65.625 (61.839)	Running Time: 144.806
+Epoch: [1][250/1562]	Time: 0.205 (0.210)	Epoch time [hr]: 0.015 (0.091)	Memory: 3.203 (4.696)	Loss: 2.2235 (2.2142)	Prec@1: 12.500 (16.609)	Prec@5: 62.500 (62.363)	Running Time: 146.901
+i_for_initial 0
+restart_dtype False False
+profiles tensor([1., 1.])
+tensor([2.7890, 1.2502])
+straggle_cmp tensor([1., 1.])
+in dynamic last stage
+Epoch: [1][260/1562]	Time: 0.206 (0.210)	Epoch time [hr]: 0.015 (0.091)	Memory: 3.203 (4.696)	Loss: 2.0375 (2.2114)	Prec@1: 25.000 (16.846)	Prec@5: 78.125 (62.727)	Running Time: 148.979
+Epoch: [1][270/1562]	Time: 0.205 (0.210)	Epoch time [hr]: 0.016 (0.091)	Memory: 3.202 (4.696)	Loss: 1.9990 (2.2084)	Prec@1: 28.125 (17.020)	Prec@5: 71.875 (63.054)	Running Time: 151.048
+Epoch: [1][280/1562]	Time: 0.109 (0.208)	Epoch time [hr]: 0.016 (0.090)	Memory: 3.203 (4.696)	Loss: 1.8700 (2.2020)	Prec@1: 25.000 (17.282)	Prec@5: 78.125 (63.657)	Running Time: 152.510
+Epoch: [1][290/1562]	Time: 0.110 (0.204)	Epoch time [hr]: 0.016 (0.089)	Memory: 3.203 (4.696)	Loss: 2.0790 (2.1981)	Prec@1: 25.000 (17.494)	Prec@5: 78.125 (64.036)	Running Time: 153.571
