@@ -1,6 +1,0 @@
-{
-    "partition": [11, 11, 12, 12, 13, 13, 14, 11],
-    "recompute_ratio": [0, 0, 0, 0, 0, 0, 0, 0],
-    "batch_size_all": [8],
-    "batch_size": [8,8,8,8,8,8,8,8]
-}
